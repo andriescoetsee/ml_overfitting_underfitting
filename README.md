@@ -1,3 +1,3 @@
-## sklearn_overfitting_underfitting
+## Scikit-learn Overfitting and Underfitting 
 
 This is WIP.....
