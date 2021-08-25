@@ -26,10 +26,13 @@ This is called the estimation error.
 
 ### The goal of supervised learning: reduce Bias and Variance at the same time
 
+```
 ![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
+````
 
-![image](https://user-images.githubusercontent.com/34986276/130864675-f10db8b3-72ad-465a-8ea7-9fe331421f8b.png)
-
+```
+![image](https://user-images.githubusercontent.com/34986276/130865306-5f678c9c-6b01-47f8-ad8a-d643eef0fdc1.png)
+```
 
 
 
