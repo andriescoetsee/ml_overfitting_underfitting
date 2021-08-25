@@ -2,10 +2,29 @@
 
 ## Error decomposition and bias-variance trade-off
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=x%20%20%20%5Cin%20%20%20%5CRe%5E%7Bd%7D%20%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="x   \in   \Re^{d} " width="57" height="19" />
-<img src="http://www.sciweavers.org/tex2img.php?eq=y%20%5Cin%20%20%20%5CRe%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="y \in   \Re" width="47" height="19" />
-<img src="http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20f%28x%29%20%2B%20%20%5Cvarepsilon%20%20%20%5Csim%20N%280%2C%20%5Csigma%20%5E%7B2%7D%29%20%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="y = f(x) +  \varepsilon   \sim N(0, \sigma ^{2}) " width="185" height="22" />
+![image](https://user-images.githubusercontent.com/34986276/130860468-e55bffeb-ba79-4fa5-bb10-ce6c4c7ccbb2.png)
 
 ### Goal
 
-Our Goal is to learn the relationship between random variables 
+Our Goal is to learn the relationship between random variables X and Y where the ground truth is y = f(x). 
+
+Furthermore, our observed data is not 100% accurate. It includes all kinds of noise and uncertainty. 
+
+Moreover, f(x) is unknown, so we approximate it by mininmize the empirical risk on the training set that will produce f hat.
+
+Take note that a different training set produces a different estimator.
+
+### What is our expected prediction error (true risk) for our estimator given all possible traning sets?
+
+**Bias** is the difference between the true f(x) and expected estimation over all possible training sets. In other words Bias describes how much the average estimator fitted over all datasets deviates from the underlying true f(x). 
+
+This is called the structural error. 
+
+**Variance of the estimator** describes how much a single estimator deviates from the expected estimator over all sets.
+
+This is called the estimation error.
+
+
+
+
+
