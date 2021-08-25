@@ -28,7 +28,7 @@ This is called the estimation error.
 
 ![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
 
-![image](https://user-images.githubusercontent.com/34986276/130863978-dd99e07a-e425-4e43-84ee-77ebdc428be2.png)
+![image](https://user-images.githubusercontent.com/34986276/130864675-f10db8b3-72ad-465a-8ea7-9fe331421f8b.png)
 
 
 
