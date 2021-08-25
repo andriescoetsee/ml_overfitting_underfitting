@@ -24,6 +24,11 @@ This is called the structural error.
 
 This is called the estimation error.
 
+### The goal of supervised learning: reduce Bias and Variance at the same time
+
+![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
+
+
 
 
 
