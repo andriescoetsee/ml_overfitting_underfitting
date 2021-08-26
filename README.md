@@ -30,8 +30,7 @@ This is called the estimation error.
 ![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
 
 
-
-![image](https://user-images.githubusercontent.com/34986276/130865306-5f678c9c-6b01-47f8-ad8a-d643eef0fdc1.png)
+![Regularisation and Generalization test 2](https://user-images.githubusercontent.com/34986276/130910089-935d0ddf-2ba1-409c-943a-4738e62d5986.png)
 
 
 
