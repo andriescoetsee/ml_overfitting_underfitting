@@ -38,7 +38,9 @@ The optimal model is found as a balancing act between the Bias and the Variance 
 This is also called the Bias-Variance tradeoff. 
 
 ![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
-
+```
+Graph from edx MITx 6.86x Machine Learning with Python-From Linear Models to Deep Learning
+```
 Let's look at the impact on the emprical risk (prediction error in our sample data as appoximation of the true risk) as we varies the complexity of the model.
 
 Say we assume a complex model with many parameters. We can fit a powerful model that reduces Bias because it follows the sample data closely. 
@@ -66,7 +68,9 @@ The way this is done is by using a traning dataset and a validation dataset to f
 See graph below for how this works in a Tree Regression example.
 
 ![Regularisation and Generalization test 2](https://user-images.githubusercontent.com/34986276/130910089-935d0ddf-2ba1-409c-943a-4738e62d5986.png)
-
+```
+Graph from https://www.kaggle.com/dansbecker/underfitting-and-overfitting
+```
 The graph shows that the training error continues dropping as the model complexity increases, depth of the tree. 
 However, there is a point of overfitting that shows in the validation error increasing. 
 The sweet spot is that regularization parameter value that prevents both overfitting and underfitting. 
@@ -77,5 +81,8 @@ The same principle can be applied to KNN algorithm where the complexity of the m
 
 <img width="576" alt="KNN" src="https://user-images.githubusercontent.com/34986276/130950118-4205412b-8d8a-4354-bb96-8377f47dacf9.png">
 
+```
+Graph from: An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani
+```
 
 
