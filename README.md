@@ -75,8 +75,7 @@ When our validation error increase it means our model will no longer generalize 
 
 The same principle can be applied to KNN algorithm where the complexity of the model increases as K decreases (relying increasingly on closer neighbours to make predictions). 
 
-![image](https://user-images.githubusercontent.com/34986276/130949548-1d37de72-d204-4cb2-b8a2-d4914e104b01.png)
-
+<img width="576" alt="KNN" src="https://user-images.githubusercontent.com/34986276/130950118-4205412b-8d8a-4354-bb96-8377f47dacf9.png">
 
 
 
