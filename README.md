@@ -46,11 +46,19 @@ However, this comes at a cost, because we are also picking up noise which increa
 This leads to **overfitting** which means given another training set the randomness of the noise will result in a very different model.
 
 On the other hand if we assume a simple model to reduce Variance, our power to detect the true signal is diminished. 
-We will miss the true signal increasing the error from the Bias.
+We will miss the true signal, increasing the error from the Bias.
 This leads to **underfitting** making our true risk high because our model form is missing the true form.
 
 ### Regularization and Generalization
 
+In Machine Learning the optimal model is learnt by minimizing the true risk. However, because we don't know the ground truth y=f(x) we need to make use of the empirical risk based on the sample data as an approximation of the true risk. 
+Then the machine learning objective is to minimize the emprical risk which is defined as Loss function that needs to be minimized. 
+The Loss function comes in many shapes and forms for example Mean Squared Error, Mean Absolute Error, Hinge Loss etc. 
+
+In Machine Learning the Loss function includes a regularization parameter which is a penalty term that increases the empirical risk. 
+However, the purpose of the regularization parameter is to control the model complexity. 
+This helps in the model fiting process to avoid the power of noise. 
+In short regularisation helps solving over fitting, making our model generalize well when seeing new data, which is what we want!
 
 ![Regularisation and Generalization test 2](https://user-images.githubusercontent.com/34986276/130910089-935d0ddf-2ba1-409c-943a-4738e62d5986.png)
 
