@@ -51,18 +51,31 @@ This leads to **underfitting** making our true risk high because our model form 
 
 ### Regularization and Generalization
 
-In Machine Learning the optimal model is learnt by minimizing the true risk. However, because we don't know the ground truth y=f(x) we need to make use of the empirical risk based on the sample data as an approximation of the true risk. 
-Then the machine learning objective is to minimize the emprical risk which is defined as Loss function that needs to be minimized. 
+In Machine Learning the optimal model is learnt by minimizing the true risk. 
+However, because we don't know the ground truth y=f(x) we need to make use of the empirical risk based on the sample data as an approximation of the true risk. 
+Then the machine learning objective is to minimize the emprical risk which is defined as a Loss function that needs to be minimized. 
 The Loss function comes in many shapes and forms for example Mean Squared Error, Mean Absolute Error, Hinge Loss etc. 
 
-In Machine Learning the Loss function includes a regularization parameter which is a penalty term that increases the empirical risk. 
-However, the purpose of the regularization parameter is to control the model complexity. 
-This helps in the model fiting process to avoid the power of noise. 
-In short regularisation helps solving over fitting, making our model generalize well when seeing new data, which is what we want!
+Furthermore, in Machine Learning the Loss function includes a regularization parameter which is a penalty term that increases the empirical risk. 
+This forces the model to learn harder (making more effort to detect the true signal behind the noise) by controling the model complexity. 
+This helps in the model fiting process to avoid the power of noise pulling our estimator towards overfitting (high Variance, high true risk/prediction error)
+
+In short regularisation helps solving overfitting, making our model generalize well when seeing new data, which is what we want!
+
+The way this is done is by using a traning dataset and a validation dataset to find the optimal hyperparameters (regularization parameters).
+See graph below for how this works in a Tree Regression example.
 
 ![Regularisation and Generalization test 2](https://user-images.githubusercontent.com/34986276/130910089-935d0ddf-2ba1-409c-943a-4738e62d5986.png)
 
+The graph shows that the training error continues dropping as the model complexity increases, depth of the tree. 
+However, there is a point of overfitting that shows in the validation error increasing. 
+The sweet spot is that regularization parameter value that prevents both overfitting and underfitting. 
+That sweet spot is at that point where the model starts learning noise causing the validation error to increase.
+When our validation error increase it means our model will no longer generalize well when seeing new data causing high prediction error or low accuracy. 
 
+The same principle can be applied to KNN algorithm where the complexity of the model increases as K decreases (relying increasingly on closer neighbours to make predictions). 
+
+![image](https://user-images.githubusercontent.com/34986276/130949548-1d37de72-d204-4cb2-b8a2-d4914e104b01.png)
 
 
 
