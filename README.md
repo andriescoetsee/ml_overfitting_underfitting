@@ -29,7 +29,7 @@ This is called the estimation error (Variance is about noise eroding form)
 
 ### The goal of supervised learning: reduce Bias and Variance at the same time
 
-The goal to reduce the Bias and Variance at the same time is not possible because of noise in the traning data. 
+The goal to reduce the Bias and Variance at the same time is not possible because of noise in the training data. 
 
 Let's look at the graph below: the true risk (prediction error) is the sum of the Bias and the Variance seen in the green line below.
 
@@ -64,7 +64,7 @@ This helps in the model fiting process to avoid the power of noise pulling our e
 
 In short regularisation helps solving overfitting, making our model generalize well when seeing new data, which is what we want!
 
-The way this is done is by using a traning dataset and a validation dataset to find the optimal hyperparameters (regularization parameters).
+The way this is done is by using a training dataset and a validation dataset to find the optimal hyperparameters (regularization parameters).
 See graph below for how this works in a Tree Regression example.
 
 ![Regularisation and Generalization test 2](https://user-images.githubusercontent.com/34986276/130910089-935d0ddf-2ba1-409c-943a-4738e62d5986.png)
