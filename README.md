@@ -29,14 +29,17 @@ This is called the estimation error (Variance is about noise eroding form)
 
 ### The goal of supervised learning: reduce Bias and Variance at the same time
 
-The true risk (prediction error) is the sum of the Bias and the Variance seen in the green line below.
+The goal to reduce the Bias and Variance at the same time is not possible because of noise in the traning data. 
+
+Let's look at the graph below: the true risk (prediction error) is the sum of the Bias and the Variance seen in the green line below.
 
 In order to minimize the true risk we need to learn the optimal model from the data. 
-The optimal model is found as a balancing act between the Bias and the Variance which move in opposite direction as we increase or decrease the model complexity.
+The optimal model is found as a balancing act between the Bias and the Variance which move in opposite directions as we increase or decrease the model complexity.
+This is also called the Bias-Variance tradeoff. 
 
 ![image](https://user-images.githubusercontent.com/34986276/130862105-62afe4c8-d7bc-492a-a34b-6785918cc8bf.png)
 
-Let's look at the impact on the emprical risk (prediction error in our sample data as arppoximation of the true risk) as we varies the complexity of the model.
+Let's look at the impact on the emprical risk (prediction error in our sample data as appoximation of the true risk) as we varies the complexity of the model.
 
 Say we assume a complex model with many parameters. We can fit a powerful model that reduces Bias because it follows the sample data closely. 
 However, this comes at a cost, because we are also picking up noise which increases the error from Variance. 
